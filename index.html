@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+<h1>Simulação da urna eletrônica</h1>
+    </header>
+    <main>
+        <article>
+            <div id="tela">
+                <h1 class=" fim ocultar">FIM.</h1>
+                <h2 class=" display">Digite o número do seu candidato e clique em "confirma".</h2>
+                <aside class="tabela ocultar">
+                    <table>
+                        <thead><h1>resultado</h1></thead>
+                        <tr>
+                            <th>Candidato</th>
+                            <th>Total de votos</th>
+                        </tr>
+                        <tr>
+                            <td>Jair Bolsonaro</td>
+                            <td class="totalBolso"></td>
+                        </tr>
+                        <tr>
+                            <td>Lula da Silva</td>
+                            <td class="totalLula"></td>
+                        </tr>
+                        <tr>
+                            <td>Ciro Gomes</td>
+                            <td class="totalCiro"></td>
+                        </tr>
+        
+                    </table>
+                </aside>
+            </div>
+            <div class="comandos">
+                <input type="number" class="numero" >
+                <button class="confirma">confirma</button>
+                <button class="candidato ocultar">confirmar candidato</button>
+                <button class="contagem ocultar">contagem final</button>
+                <button class="outro ocultar">voltar</button>
+                <button class="resultado ocultar">resultado da eleição</button>
+            </div>
+        </article>
+        
+    </main>
+    <footer>
+        <h2>Desenvolvido por Carlos Neves</h2>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
